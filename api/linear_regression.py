@@ -52,6 +52,7 @@ regr.fit(X_train, Y_train)
 
 Y_pred = regr.predict(X_test)
 
+# Uncomment if you want to see the coefficients
 # The coefficients
 # print("Coefficients: \n", regr.coef_)
 # The mean squared error
